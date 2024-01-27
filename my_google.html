@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Search</title>
-
     <style>
         * {
-            margin: 0;
-            padding: 0;
+            margin: 0px;
+            padding: 0px;
             box-sizing: border-box;
         }
 
@@ -24,13 +23,13 @@
         }
 
         form {
-            /* width: 800px; */
+            width: 800px;
             /* background-color: yellowgreen; */
             text-align: center;
             margin: 0px auto;
         }
 
-        form div [type=submit] {
+        form div {
             display: inline-block;
             border: 1px solid black;
             padding: 5px 10px;
@@ -39,10 +38,10 @@
         }
         form input [type=text] {
             border: none;
-            outline: on
+            outline: none;
         }
 
-        form input {
+        form input [type=submit] {
             height: 36px;
             width: 36px;
             border-radius: 18px;
@@ -53,7 +52,7 @@
     </style>
 </head>
 <body>
-    <h1><span style="color: cornflowerblue">G</span><span style="color: plum">oo</span>gle</h1>
+    <h1><span style="color: cornflowerblue">G</span><span style="color: plum">o</span>ogle</h1>
     <form action="https://www.google.com/search" target="_blank">
         <div>
             <span class="icon-search">🔍</span>
